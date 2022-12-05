@@ -1,0 +1,30 @@
+.tabla {
+    width: 80%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 3%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    border-bottom: 1px solid rgb(4, 23, 228);
+    background-color: #fafafa93;
+
+    
+ }
+ tr:nth-child() {background-color: #64aaf9af}
+ .button{
+    
+    font-size: 18px;
+    border-radius: 8px;
+ }
+ .button:hover{
+   background-color: rgba(26, 132, 231, 0.619);
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgb(255, 255, 255);
+ }

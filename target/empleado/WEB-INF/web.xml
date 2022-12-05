@@ -1,0 +1,109 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>controller.empleado</servlet-name>
+    <servlet-class>controller.empleado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller.empleado</servlet-name>
+    <url-pattern>/empleado</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>controller.rol</servlet-name>
+      <servlet-class>controller.rol</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>controller.rol</servlet-name>
+      <url-pattern>/rol</url-pattern>
+      </servlet-mapping>
+      <servlet>
+        <servlet-name>controller.Nomina</servlet-name>
+        <servlet-class>controller.Nomina</servlet-class>
+      </servlet>
+      <servlet-mapping>
+        <servlet-name>controller.Nomina</servlet-name>
+        <url-pattern>/nomina</url-pattern>
+        </servlet-mapping>
+       <servlet>
+<servlet-name>controller.NovedadController</servlet-name>
+<servlet-class>controller.NovedadController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>controller.NovedadController</servlet-name>
+  <url-pattern>/novedad</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+  <servlet-name>controller.TipoConceptoController</servlet-name>
+  <servlet-class>controller.TipoConceptoController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>controller.TipoConceptoController</servlet-name>
+    <url-pattern>/tipoconcepto</url-pattern>
+    </servlet-mapping>
+  
+
+<servlet>
+  <servlet-name>controller.usuario</servlet-name>
+  <servlet-class>controller.usuario</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>controller.usuario</servlet-name>
+  <url-pattern>/usuario</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>controller.ConceptoController</servlet-name>
+    <servlet-class>controller.ConceptoController</servlet-class>
+    </servlet>
+    
+<servlet-mapping>
+<servlet-name>controller.ConceptoController</servlet-name>
+<url-pattern>/concepto</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>controller.cargo</servlet-name>
+  <servlet-class>controller.cargo</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>controller.cargo</servlet-name>
+  <url-pattern>/cargo</url-pattern>
+  </servlet-mapping>
+  
+<!-- LOGIN -->
+<servlet>
+  <servlet-name>controller.loginController</servlet-name>
+  <servlet-class>controller.loginController</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>controller.loginController</servlet-name>
+  <url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<!-- SESION -->
+<servlet>
+   <servlet-name>controller.sesionController</servlet-name>
+   <servlet-class>controller.sesionController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>controller.sesionController</servlet-name>
+   <url-pattern>/sesion</url-pattern>
+</servlet-mapping>
+
+</web-app>
